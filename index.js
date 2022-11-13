@@ -1,5 +1,5 @@
 import Express from 'express';
-import songs from './songs.json';
+
 const app = Express();
 
 app.use((req, res, next) => {
